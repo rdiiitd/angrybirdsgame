@@ -20,7 +20,7 @@ public class pig extends Actor {
     float width ;
     float height ;
     int health ;
-    private float offsetX, offsetY;
+    
     public pig(Main game , float x , float y , float width ,  float height , int health) {
         this.game = game ;
         this.x = x ;
@@ -34,21 +34,11 @@ public class pig extends Actor {
 
        }
 
-
-
-
     @Override
     public void draw(Batch batch, float parentAlpha) {
 
         batch.draw(pig, getX(), getY(), getWidth(), getHeight());
     }
-
-
-
-
-
-
-
 
 
 

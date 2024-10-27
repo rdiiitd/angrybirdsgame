@@ -1,33 +1,38 @@
-# angrybirdsgame
+##Angry birds game
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+##contributions : 
 
-## Platforms
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+Raghav Dewan(2023414) : Made mainmenu and level screen and levels background and play and quit button on mainmenu .
 
-## Gradle
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+Saksham Arora(2023466) : Mananged and made the sprites and made setting screen and setting ,back,volume button and helped in the palcement of each sprite/object .
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+##Refrences :
+1) birds ,pigs  and materials  phots from : https://angrybirds.fandom.com/wiki/Angry_Birds_Wiki .
+
+2) backgrounds : Took a image from google and edited it in canva .
+
+3) Read from : https://libgdx.com/wiki/start/a-simple-game .
+
+4) Watched video to learn how to use actors and stage  : https://www.youtube.com/watch?v=A_-rxTO5138&list=PLS9MbmO_ssyCZ9Tjfay2tOQoaOVoG59Iy&index=12
+
+
+##How to Run code :
+
+
+1) Unzip the zip file and download all the folders .
+
+2) Open the folders in intellege .
+
+3) Build the code using the gradle and launch the code using the run button .
+ 
+4)The first screen will be the manimenu screen it has two buttons the play and the quit button . The quit button will quit the code/game and the play button will move to the level selection screen .
+
+5)The level selection screen will have the different levels to play(eg1,2,3) and a cross button . Any of the level button will koev to the level screen associated with it and the cross button will move back to the mainmenu .
+
+6)Each level screen will have the level structure , birds and a slingshot and it will also have a settings button . The settings button will move to the settings screen .
+
+7) The sttings screen has two buttons the back and the volume button . The back will move to the level selection screen .

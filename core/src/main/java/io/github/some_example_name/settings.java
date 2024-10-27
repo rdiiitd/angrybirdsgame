@@ -11,7 +11,7 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class settings implements Screen {
-     Main game; // Reference to the main game class
+     Main game; 
      Stage stage;
 
      Texture background ;
@@ -19,23 +19,17 @@ public class settings implements Screen {
      back back ;
      Texture settings_banner ;
 
-
-
-
-
-
-
     public settings(Main game) {
         this.game = game;
     }
 
     @Override
     public void show() {
-        // Set the game world size
+        
         stage = new Stage(game.viewport);
 
         Gdx.input.setInputProcessor(stage);
-        background = new Texture("level.jpeg");// Load the texture
+        background = new Texture("level.jpeg");
         settings_banner = new Texture("settings_banner.png") ;
         volume = new vloume(game,482,252,85,85) ;
         back = new back(game, 214.00002F,250,85,85) ;
@@ -52,7 +46,7 @@ public class settings implements Screen {
         game.batch.begin();
         game.batch.draw(background, 0, 0, 800, 600);
 
-        game.batch.draw(settings_banner,271 , 353, 200, 200);// Specify position and size
+        game.batch.draw(settings_banner,271 , 353, 200, 200);
         game.batch.end();
 
 
@@ -65,7 +59,7 @@ public class settings implements Screen {
 
     @Override
     public void resize(int width, int height) {
-        game.viewport.update(width, height); // Update the viewport
+        game.viewport.update(width, height);
     }
 
     @Override
@@ -85,7 +79,7 @@ public class settings implements Screen {
 
     @Override
     public void dispose() {
-        // Dispose of the stage, texture, and batch to avoid memory leaks
+        
         stage.dispose();
         game.batch.dispose();
     }

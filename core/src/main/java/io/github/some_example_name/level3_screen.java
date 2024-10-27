@@ -13,9 +13,9 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class level3_screen implements Screen {
-    Main game; // Reference to the main game class
+    Main game; 
     Stage stage;
-    Texture mainmenu;  // Moved texture to class level
+    Texture mainmenu;  
 
     redbird red ;
     blackbird black ;
@@ -34,8 +34,8 @@ public class level3_screen implements Screen {
 
         stage = new Stage(game.viewport);
 
-        Gdx.input.setInputProcessor(stage); // Set input processor to the stage
-        mainmenu = new Texture("level.jpeg"); // Load the texture
+        Gdx.input.setInputProcessor(stage); 
+        mainmenu = new Texture("level.jpeg"); 
 
 
         red = new redbird(game, 119F, 83F,"red") ;
@@ -63,7 +63,7 @@ public class level3_screen implements Screen {
 
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         game.batch.begin();
-        game.batch.draw(mainmenu, 0, 0, 800, 600); // Specify position and size
+        game.batch.draw(mainmenu, 0, 0, 800, 600); 
         game.batch.end();
 
 
@@ -76,7 +76,7 @@ public class level3_screen implements Screen {
 
     @Override
     public void resize(int width, int height) {
-        game.viewport.update(width, height); // Update the viewport
+        game.viewport.update(width, height); 
     }
 
     @Override

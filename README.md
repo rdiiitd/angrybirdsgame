@@ -13,7 +13,7 @@ Saksham Arora(2023466) : Mananged and made the sprites and made setting screen a
 ##Refrences :
 1) birds ,pigs  and materials  phots from : https://angrybirds.fandom.com/wiki/Angry_Birds_Wiki .
 
-2) backgrounds : Took a image from google and edited it in canva .
+2) backgrounds : Took  images from google and edited it in canva and figma .
 
 3) Read from : https://libgdx.com/wiki/start/a-simple-game .
 

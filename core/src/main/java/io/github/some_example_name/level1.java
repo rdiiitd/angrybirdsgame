@@ -32,7 +32,6 @@ public class level1 extends Actor {
 
     @Override
     public void draw(Batch batch, float parentAlpha) {
-        // Draw a rectangle with the current color
         batch.draw(level_1, getX(), getY(), getWidth(), getHeight());
     }
 
@@ -40,7 +39,7 @@ public class level1 extends Actor {
     public void act(float delta) {
         super.act(delta);
 
-        // Update the button position to follow the cursor
+        
 
     }
 

@@ -12,10 +12,9 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
 public class mainmenu implements Screen {
-    final Main game; // Reference to the main game class
+    final Main game; 
     Stage stage;
-    Texture mainmenu;  // Moved texture to class level
-
+    Texture mainmenu;  
 
     public mainmenu(Main game) {
         this.game = game;
@@ -44,20 +43,20 @@ public class mainmenu implements Screen {
         game.music.play();
 
         game.batch.begin();
-        game.batch.draw(mainmenu, 0, 0, 800, 600); // Specify position and size
+        game.batch.draw(mainmenu, 0, 0, 800, 600); 
         game.batch.end();
 
 
         stage.act(Gdx.graphics.getDeltaTime());
         stage.draw();
 
-        // Draw the main menu background
+       
 
     }
 
     @Override
     public void resize(int width, int height) {
-        game.viewport.update(width, height); // Update the viewport
+        game.viewport.update(width, height); 
     }
 
     @Override

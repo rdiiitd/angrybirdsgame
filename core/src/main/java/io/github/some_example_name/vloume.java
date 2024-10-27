@@ -20,7 +20,7 @@ public class vloume extends Actor {
     float width ;
     float height ;
 
-    private float offsetX, offsetY;
+  
     public vloume(Main game , float x , float y , float width ,  float height ) {
         this.game = game ;
         this.x = x ;
@@ -33,9 +33,6 @@ public class vloume extends Actor {
         setTouchable(Touchable.enabled);
 
          }
-
-
-
 
     @Override
     public void draw(Batch batch, float parentAlpha) {

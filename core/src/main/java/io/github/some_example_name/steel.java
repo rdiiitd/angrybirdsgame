@@ -47,7 +47,6 @@ public class steel extends Actor {
 
     @Override
     public void draw(Batch batch, float parentAlpha) {
-        // Draw a rectangle with the current color
         batch.draw(steelx, getX(), getY(), getWidth(), getHeight());
     }
 

@@ -20,7 +20,7 @@ public class setting_stage extends Actor {
     float width ;
     float height ;
 
-    private float offsetX, offsetY;
+    
     public setting_stage(Main game , float x , float y , float width ,  float height ) {
         this.game = game ;
         this.x = x ;
@@ -40,20 +40,15 @@ public class setting_stage extends Actor {
             }
         }); }
 
-
-
-
     @Override
     public void draw(Batch batch, float parentAlpha) {
-        // Draw a rectangle with the current color
+        
         batch.draw(setting, getX(), getY(), getWidth(), getHeight());
     }
 
     @Override
     public void act(float delta) {
         super.act(delta);
-
-        // Update the button position to follow the cursor
 
     }
 

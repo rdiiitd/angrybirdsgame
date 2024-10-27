@@ -31,7 +31,6 @@ public class playbuuton extends Actor {
 
     @Override
     public void draw(Batch batch, float parentAlpha) {
-        // Draw a rectangle with the current color
         batch.draw(play, getX(), getY(), getWidth(), getHeight());
     }
 
